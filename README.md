@@ -10,7 +10,7 @@
 	<img
 		height="175"
 		alt="The Lounge"
-		src="https://demo.cloudimg.io/height/350/n/https://scaleflex.airstore.io/filerobot/filerobot-cloudimage.png?sanitize=true">
+		src="https://demo.cloudimg.io/height/350/n/https://cdn.scaleflex.it/filerobot/filerobot-cloudimage.png?sanitize=true">
 </p>
 
 <h1 align="center">
@@ -48,7 +48,7 @@ Cloudimage, contact us at
 <p align="center">
 	<img
 		alt="The Lounge"
-		src="https://demo.cloudimg.io/width/1400/n/https://scaleflex.airstore.io/filerobot/cloudimage-process.jpg?sanitize=true">
+		src="https://demo.cloudimg.io/width/1400/n/https://cdn.scaleflex.it/filerobot/cloudimage-process.jpg?sanitize=true">
 </p>
 
 powered by [Cloudimage](https://www.cloudimage.io/)
