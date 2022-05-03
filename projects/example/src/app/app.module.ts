@@ -2,7 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {CIModule, CIConfig} from 'lib';
+import {CIConfig, CIModule, CI_CONFIG} from 'lib';
 
 import { HighlightModule } from 'ngx-highlightjs';
 import typescript from 'highlight.js/lib/languages/typescript';
@@ -17,10 +17,10 @@ export function hljsLanguages() {
   ];
 }
 
-const ciConfig = {
+const ciConfig: Partial<CIConfig> = {
   token: 'demo',
   baseUrl: 'https://cloudimage.public.airstore.io/demo/',
-  queryString: '?&size_info=1&v2',
+  // queryString: '?&size_info=1&v2',
   lazyLoadOffset: 100,
   lazyLoading: true,
   placeholderBackground: '#e1e1e1'
@@ -39,7 +39,7 @@ const ciConfig = {
     })
   ],
   providers: [
-    {provide: CIConfig, useValue: ciConfig}
+    {provide: CI_CONFIG, useValue: ciConfig}
   ],
   bootstrap: [AppComponent]
 })
